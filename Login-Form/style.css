@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 320px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.background {
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.brand {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.brand h1 {
+    margin: 0;
+    color: #1e3c72;
+}
+
+.brand p {
+    margin-top: 5px;
+    color: gray;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #1e3c72;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #1e3c72;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #2a5298;
+}
+
+.login-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    
+
+    background: #1e3c72;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    opacity: 0.8;
+}
+
+
+.sections {
+    display: grid;
+    grid-template-columns: repeat(4 , 300px);
+    gap: 25px;
+}
+
+
+.card {
+    height: 300px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    filter: brightness(1.1);
+}
+
+
+.home .brand h1 {
+    font-size: 70px;
+    color: white;
+   padding-top: -40px;
+}
+.home .brand p {
+    font-size: 25px;
+    color: #ddd;
+    margin-top: 30px;
+}
