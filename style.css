@@ -72,7 +72,7 @@ body{
     padding: 10px 20px;
     cursor: pointer;
     font-size: 18px;
-    margin-top: 300px;
+    margin-top: 30px;
 }
 .Features-section{
   background-color: rgb(211, 201, 189);
@@ -129,10 +129,18 @@ body{
 }
 .destination-info p{
     font-size: 1em;
-    color: #ccc;
+    color: #cccccca9;
     margin-bottom: 10px;
 }
 .destination-info a{
     color: teal;
     text-decoration: none;
+}
+footer {
+    background-color: #222;
+    color: #bbb;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 10px;
 }
