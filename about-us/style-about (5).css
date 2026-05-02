@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+h1, h2 ,h3 , p{
+    margin: 10px;
+
+}
+h1 {
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+
+.about-hero {
+        display: flex;
+    
+    background-color: #333;
+
+}
+
+.about-hero div {  
+    text-transform: uppercase;
+    text-align: center;
+    color: #ccc;
+}
+
+.hero-content {
+    background-color: #444;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.about-details {
+    padding: 20px;
+    margin: 50px;
+    background-color: #333;
+    text-align: center;
+    color: #ccc;
+}
+
+.container div {
+    padding: 5px;
+    border: 2px solid rgb(250, 247, 274, 0.3);
+    border-radius: 15px;
+}
+
+.container-content{
+    background-color: #444;
+    margin: 10px;
+
+}
+
+.features {
+   
+    margin: 10px;
+    background-color: #444;
+}
+.feat-box {
+ background-color: #555;
+}
+
+
+.travel-img {
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.feat-box {
+    border-radius: 15px;
+    margin: 50px;
+    background-color: #333;
+}
+
+.icon {
+    border-radius: 15px;
+    margin: 50px;
+    background-color: #ccc;
+}
+.icon img {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+footer {
+    margin: 0px 1px 1px 1px;
+    padding: 10px;
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+  
+}
