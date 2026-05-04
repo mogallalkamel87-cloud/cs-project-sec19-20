@@ -29,6 +29,12 @@ h3{
     background-color: #333;
 }
 .about-hero-links{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    gap:20px;
+}
+.about-hero-links a{
     color:white;
      text-decoration:none;
     
