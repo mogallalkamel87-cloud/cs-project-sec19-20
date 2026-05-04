@@ -25,12 +25,14 @@ h3{
 }
 
 .about-hero {
-        display: flex;
-    
+        display: flex;  
     background-color: #333;
-
 }
-
+.about-hero-links{
+    color:white;
+     text-decoration:none;
+    
+}
 .about-hero div {  
     text-transform: uppercase;
     text-align: center;
